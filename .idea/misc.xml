@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-model/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservices/orderup-api-products/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservices/orderup-api-orders/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservicios/orderup-api-usuarios/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservicios/orderup-api-ordenes/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservicios/orderup-api-mesas/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservices/orderup-api-orders/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservices/orderup-api-products/pom.xml" />
+        <option value="$PROJECT_DIR$/orderup-api/orderup-api-microservices/orderup-api-users/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
