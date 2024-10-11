@@ -1,4 +1,4 @@
-package edu.mx.utleon.orderup.model;
+package edu.mx.utleon.orderup.modelo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package edu.mx.utleon.orderup.model.entity;
+package edu.mx.utleon.orderup.modelo.entidad;
 
 import jakarta.persistence.*;
 import jakarta.persistence.Table;
