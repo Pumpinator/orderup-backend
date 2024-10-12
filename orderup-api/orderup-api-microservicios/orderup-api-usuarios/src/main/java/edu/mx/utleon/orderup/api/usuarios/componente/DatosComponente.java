@@ -49,7 +49,7 @@ public class DatosComponente {
     }
 
     private Usuario crearUsuario(Usuario usuario) {
-        Usuario nuevoUsuario = usuarioRepositorio.findByNombre(usuario.getUsername()).orElse(null);
+        Usuario nuevoUsuario = usuarioRepositorio.findByNombre(usuario.getNombre()).orElse(null);
         if (nuevoUsuario == null) {
             nuevoUsuario = usuarioRepositorio.save(usuario);
         }
