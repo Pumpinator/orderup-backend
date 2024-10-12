@@ -38,6 +38,46 @@ public class DatosComponente {
                 .rol(rolAdmin)
                 .build()
         );
+
+        crearUsuario(Usuario
+                .builder()
+                .nombre("host")
+                .clave(passwordEncoder.encode("host"))
+                .rol(rolHost)
+                .build()
+        );
+
+        crearUsuario(Usuario
+                .builder()
+                .nombre("mesero")
+                .clave(passwordEncoder.encode("mesero"))
+                .rol(rolMesero)
+                .build()
+        );
+
+        crearUsuario(Usuario
+                .builder()
+                .nombre("corredor")
+                .clave(passwordEncoder.encode("corredor"))
+                .rol(rolCorredor)
+                .build()
+        );
+
+        crearUsuario(Usuario
+                .builder()
+                .nombre("cajero")
+                .clave(passwordEncoder.encode("cajero"))
+                .rol(rolCajero)
+                .build()
+        );
+
+        crearUsuario(Usuario
+                .builder()
+                .nombre("cocinero")
+                .clave(passwordEncoder.encode("cocinero"))
+                .rol(rolCocinero)
+                .build()
+        );
     }
 
     private Rol crearRol(String nombre) {
